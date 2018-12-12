@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
+{%block title %}Home{% endblock %}
 {%block content%}
-<h1>I'm an index page.</h1>
+<div class="jumbotron">
+  <div class="container" id="welcome">
+   <h1>Hello Clive!</h1>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Add a new Post </a></p>
+  </div>
+</div>
 {% for post in posts %}
 
     <div>

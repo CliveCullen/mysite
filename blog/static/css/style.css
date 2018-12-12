@@ -1,4 +1,12 @@
 body{
-background: green !important;
+padding : 20px;
+
+}
+
+#welcome{
+color: black;
+
+text-align:center;
+background-image: url('{% static '../img/trees.jpg'%}';
 
 }
